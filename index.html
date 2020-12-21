@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Задание №1</title>
+    <link rel="icon" href="/wolf.ico">
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+    <div id="root">
+        <div id="app">
+            <div class="app-head">Регистрация</div>
+            <form class="app_content" id="formDATA">
+                <div class="input-word" id="Label">
+                    <label for="input-name">Имя</label>
+                    <label for="surname-input">Фамилия</label>
+                    <label for="birthdate-input">День рождения</label>
+                </div>
+                <div class="input" id="name">
+                    <input type="text" name="Name" id="name-input" placeholder="name" >
+                    <input type="text" name="Surname" id="surname-input" placeholder="surname">
+                    <input type="date" name="BirthDay" id="birthdate-input">
+                </div>
+                <div class="input" id="selecT">
+                   <select name="Select" id="seleCT">
+                    <option value="none"></option>
+                    <option value="star">&#9734;</option>
+                    <option value="heart">&#9825;</option>
+                    <option value="octagon">&#9826;</option>
+                   </select>
+                </div>
+                <button type="button" id="send">Отправить</button>
+            </form>
+        </div>
+
+    </div>
+    <noscript>
+        Необходимо включить поддержку JavaScript в вашем браузере.
+    </noscript>
+    <script src="/jquery/dist/jquery.min.js"></script>
+
+    <script src="./js/app.js"></script>
+</body>
+</html>
